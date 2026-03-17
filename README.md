@@ -5,7 +5,7 @@ A lightweight, high-performance blog application built with **Laravel 12**, **Ta
 ## ✨ Features
 
 * **CRUD Operations:** Full Create, Read, Update, and Delete capabilities for blog posts.
-* **Custom RBAC:** Symfony-inspired role checks (e.g., `ROLE_SUPER_ADMIN`) implemented via Laravel Gates.
+* **Custom RBAC:** Symfony-inspired role checks (`ROLE_SUPER_ADMIN`) implemented via Laravel Gates.
 * **Pagination:** Optimized list view with 10 posts per page.
 * **Modern UI:** Responsive design using Tailwind CSS with a "sticky footer" and clean admin dashboard.
 * **Authentication:** Secure login/registration powered by Laravel Breeze.
