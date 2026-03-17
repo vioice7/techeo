@@ -23,31 +23,31 @@ A lightweight, high-performance blog application built with **Laravel 12**, **Ta
 
 Follow these steps to get your local development environment running.
 
-### 1. Clone the repository
+### Clone the repository
 ```bash
 git clone <your-repository-url>
 cd techno-blog
 ```
 
-### 2. Install Dependencies
+### Install Dependencies
 ```bash
 composer install
 npm install && npm run build
 ```
 
-### 3. Environment Setup
+### Environment Setup
 ```bash
 cp .env.example .env
 php artisan key:generate
 ```
 
-### 4. Database Migration & Seeding
+### Database Migration & Seeding
 *Make sure your database is configured in `.env` (SQLite is recommended for quick testing).*
 ```bash
 php artisan migrate
 ```
 
-### 5. Start the Application
+### Start the Application
 ```bash
 php artisan serve
 ```
@@ -58,10 +58,10 @@ The app will be available at: **http://localhost:8000**
 ## 🔑 Admin Setup
 To access the administrative features (creating/editing posts), ensure your user has the correct role in the database:
 
-1. Register an account via `/register`.
-2. Open your database tool and set the `roles` column for your user to: `["ROLE_SUPER_ADMIN"]`.
+Register an account via `/register`.
+Open your database tool and set the `roles` column for your user to: `["ROLE_SUPER_ADMIN"]`.
 
 ---
 
 ## 📝 License
-Built by Tech as a technical demonstration.
+Built by Tech as a technical demonstration. 1234567890
