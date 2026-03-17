@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html class="h-full"> <head>
-    <title>Techno Blog</title>
+    <title>Tech</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 flex flex-col h-full"> <nav class="bg-white shadow mb-8">
         <div class="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
-            <a href="{{ url('/') }}" class="text-xl font-bold text-gray-800">Techno Blog</a>
+            <a href="{{ url('/') }}" class="text-xl font-bold text-gray-800">Tech</a>
             <div class="space-x-4">
                 @auth
                     <span class="text-gray-600 text-sm">Hi, {{ Auth::user()->email }}</span>
@@ -79,7 +79,7 @@
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="mb-4 md:mb-0">
                     <p class="text-gray-600 text-sm">
-                        &copy; {{ date('Y') }} <strong>Techno Blog</strong>. Test
+                        &copy; {{ date('Y') }} <strong>Tech</strong>. Test
                     </p>
                 </div>
                 <div class="flex space-x-6">

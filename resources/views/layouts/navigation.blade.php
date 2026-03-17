@@ -4,7 +4,7 @@
             <div class="flex">
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}" class="font-bold text-xl text-gray-800">
-                        Techno Blog
+                        Tech
                     </a>
                 </div>
 
